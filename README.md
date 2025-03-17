@@ -1,6 +1,6 @@
 # desktop
 
-**desktop** provides a windows desktop application using Wails that connects to the
+**desktop** provides a windows desktop application using wails that connects to the
 rest api of server.
 
 ## Installation
