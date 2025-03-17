@@ -1,0 +1,30 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "AgentX",
+  "outputfilename": "agentx",
+  "frontend:dir": "./frontend",
+  "frontend:install": "npm install",
+  "frontend:build": "npm run build",
+  "frontend:dev:watcher": "npm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "wailsjsdir": "./frontend/src/wailsjs",
+  "author": {
+    "name": "AgentX",
+    "email": "angersax@sina.com"
+  },
+  "info": {
+    "companyName": "angersax",
+    "productName": "AgentX",
+    "productVersion": "1.0.0",
+    "copyright": "Copyright © 2025",
+    "comments": "Built with Wails (https://wails.io)"
+  },
+  "debounceMS": 100,
+  "devServer": "http://localhost:34115",
+  "bindingsdir": "./bindings",
+  "bindings": {
+    "ts": {
+      "formatter": "prettier"
+    }
+  }
+}
